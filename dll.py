@@ -1,6 +1,5 @@
 from ctypes import *
+__author__ = 'Etzyio'
 
-import ctypes
 dll = cdll.LoadLibrary('getqq.dll')
-from ctypes import *
 dll.getqq()

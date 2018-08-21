@@ -8,7 +8,7 @@
 
 #include "pcap.h"
 
-int main()
+void getqq()
 {
 	//声明链表指针，用来保存所有的网卡的描述符
 	pcap_if_t *alldevs;
